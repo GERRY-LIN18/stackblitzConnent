@@ -2,7 +2,7 @@ import { Component, ViewContainerRef } from '@angular/core';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
 import { LocalService } from '../local.service';
-import { GlobalService } from '../../../.history/src/app/global.service_20231030170956';
+import { GlobalService } from '../global.service';
 
 @Component({
   selector: 'app-child',
